@@ -7,6 +7,7 @@ import {StateType} from "./Redux/store";
 import {getCurrency, setInputValue} from "./Action&Thunk/Action_Thunk";
 
 function App() {
+
     const dispatch = useDispatch()
 
     const state = useSelector<StateType, InitiolStateType>(state => state.currencies)
