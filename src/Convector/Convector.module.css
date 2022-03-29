@@ -25,14 +25,18 @@
 }
 .down_box{
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-around;*/
+    align-items: center;
+}
+.down_box_1{
+    margin: 0 auto;
 }
 .buttons{
     background-color: fuchsia;
     width: 300px;
     border-radius: 25px;
     border: 0px;
-    margin: 5px 0 0 0;
+    margin: 5px 10px 0 0;
     color: white;
     height: 40px;
 }
@@ -41,7 +45,7 @@
     width: 300px;
     border-radius: 25px;
     border: 0px;
-    margin: 5px 0 0 0;
+    margin: 5px 10px 0 0;
     color: white;
     height: 40px;
 }
@@ -79,15 +83,15 @@
         flex-direction: column;
 
     }
-    .down_box_1{
-        justify-self: end;
+    .down_box_one{
+        margin: 5px 10px 0 0;
     }
     .buttons{
         background-color: fuchsia;
         width: 300px;
         border-radius: 25px;
         border: 0px;
-        margin: 5px 0 0 0;
+        margin: 5px 0 10px 0;
         color: white;
         height: 40px;
     }
@@ -96,7 +100,7 @@
         width: 300px;
         border-radius: 25px;
         border: 0px;
-        margin: 5px 0 0 0;
+        margin: 5px 0 10px 0;
         color: white;
         height: 40px;
     }
