@@ -47,6 +47,7 @@ function App() {
 
     return (
         <div className="App">
+            <h1>Exchange money</h1>
             <Convector
                 buy={buy}
                 sell={sell}
