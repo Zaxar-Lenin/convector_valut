@@ -103,7 +103,7 @@ function Convector(props: ConvetorType) {
                                         onClickHandler(false)
                                     }}>Swap</button>
                         </div>
-                        <div>Currency rate: {props.buy}</div>
+                        <div>Currency rate: {props.sell}</div>
                     </div>
                 </div>
                 : <div>
@@ -159,7 +159,7 @@ function Convector(props: ConvetorType) {
                                         onClickHandler(true)
                                     }}>Swap</button>
                         </div>
-                        <div className={s.down_box_one}>Currency rate: {props.sell}</div>
+                        <div className={s.down_box_one}>Currency rate: {props.buy}</div>
                     </div>
                 </div>}
         </div>
