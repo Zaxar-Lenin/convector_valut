@@ -65,9 +65,9 @@ function Convector(props: ConvetorType) {
                             </div>
                             <div>
                                 <label>
-                                    <input className={s.inputs} data-currency="currencyOne"
-                                           onChange={props.onChangeHandler}
-                                           value={props.inputOneValue}
+                                    <input className={s.inputs} onChange={props.onChangeHandler}
+                                           value={props.inputTwoValue}
+                                           data-currency="currencyTwo"
                                     />
                                 </label>
                             </div>
@@ -86,9 +86,9 @@ function Convector(props: ConvetorType) {
                             </div>
                             <div>
                                 <label>
-                                    <input className={s.inputs} onChange={props.onChangeHandler}
-                                           value={props.inputTwoValue}
-                                           data-currency="currencyTwo"
+                                    <input className={s.inputs} data-currency="currencyOne"
+                                           onChange={props.onChangeHandler}
+                                           value={props.inputOneValue}
                                     />
                                 </label>
                             </div>
@@ -123,8 +123,8 @@ function Convector(props: ConvetorType) {
                             <div>
                                 <label>
                                     <input className={s.inputs} onChange={props.onChangeHandler}
-                                           value={props.inputTwoValue}
-                                           data-currency="currencyTwo"
+                                           value={props.inputOneValue}
+                                           data-currency="currencyOne"
                                     />
                                 </label>
                             </div>
@@ -144,8 +144,8 @@ function Convector(props: ConvetorType) {
                             <div>
                                 <label>
                                     <input className={s.inputs} onChange={props.onChangeHandler}
-                                           value={props.inputOneValue}
-                                           data-currency="currencyOne"
+                                           value={props.inputTwoValue}
+                                           data-currency="currencyTwo"
                                     />
                                 </label>
                             </div>
